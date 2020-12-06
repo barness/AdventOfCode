@@ -52,7 +52,7 @@ if __name__ == "__main__":
     args = parse_args()
     if args.check == "NumTrees":
         count_type = all_slopes
-    if args.check == "NumTrees2":
+    elif args.check == "NumTrees2":
         count_type = all_slopes2
     else:
         print("Invalid --check argument provided")
