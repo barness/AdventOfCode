@@ -27,9 +27,7 @@ def count_num_trees(right, down):
 
 
 def all_slopes():
-    slope2 = count_num_trees(3, 1)
-
-    return slope2
+    return count_num_trees(3, 1)
 
 
 def all_slopes2():
