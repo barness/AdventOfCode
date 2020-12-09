@@ -111,4 +111,3 @@ def find_valid_passports() -> List[Passport]:
 if __name__ == "__main__":
     passports = find_valid_passports()
     print("# of Valid Passports Found:", len(passports))
-    

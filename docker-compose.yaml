@@ -28,3 +28,7 @@ services:
   passport_processing:
     <<: *script
     entrypoint: [ "python", "-m", "questions.passport_processing" ]
+
+  binary_boarding:
+    <<: *script
+    entrypoint: [ "python", "-m", "questions.binary_boarding" ]
