@@ -36,3 +36,11 @@ services:
   custom_customs:
     <<: *script
     entrypoint: [ "python", "-m", "questions.custom_customs" ]
+
+  handy_haversacks:
+    <<: *script
+    entrypoint: [ "python", "-m", "questions.handy_haversacks" ]
+
+  handheld_halting:
+    <<: *script
+    entrypoint: [ "python", "-m", "questions.handheld_halting" ]
